@@ -1,0 +1,47 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.colorChangeBtn {
+    background-color: #bdc3c7;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 172px;
+    cursor: pointer;
+}
+
+.square {
+    width: 170px;
+    height: 170px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+
+hr {
+    width: 100%;
+}
