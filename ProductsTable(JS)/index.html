@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Products Table</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <label for="firstInputVal">Цена от:
+                <input id="firstInputVal" type="text" placeholder="0">
+            </label>
+            <label for="secondInputVal">до:
+                <input id="secondInputVal" type="text" placeholder="10000">
+            </label>
+            <button id="refreshDataBtn">Обновить</button>
+        </header>
+        <table class="table">
+            <tr class="lastTr">
+                <th>ID</th>
+                <th>Название</th>
+                <th>Количество</th>
+                <th>Цена за еденицу</th>
+                <th>Сумма</th>
+            </tr>
+        </table>
+        <p class="status-message"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
